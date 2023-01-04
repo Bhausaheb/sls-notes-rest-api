@@ -6,7 +6,7 @@ phases:
       nodejs: 14
     commands:
       - echo installing serverless cli to run serverless script
-      - npm i -g serverless@2
+      - npm i -g serverless
       - echo installing application dependancy packages
       - npm install
   build:
